@@ -1230,8 +1230,7 @@ body {
 }
 .long-g--2,
 .long-g--3 {
-  bottom: -3vmin;
-  left: -35vmin;
+
   transform-origin: center;
   transform: scale(0.6) rotateX(60deg);
 }
@@ -1245,12 +1244,9 @@ body {
 }
 .long-g--2 .leaf--1,
 .long-g--3 .leaf--1 {
-  left: -1vmin;
   transform: rotateY(-180deg);
 }
 .long-g--3 {
-  left: -17vmin;
-  bottom: 0vmin;
 }
 .long-g--3 .leaf {
   -webkit-mask-image: linear-gradient(
@@ -1260,8 +1256,6 @@ body {
   ) !important;
 }
 .long-g--4 {
-  left: 25vmin;
-  bottom: -3vmin;
   transform-origin: center;
   transform: scale(0.6) rotateX(60deg);
 }
@@ -1273,8 +1267,6 @@ body {
   ) !important;
 }
 .long-g--5 {
-  left: 42vmin;
-  bottom: 0vmin;
   transform: scale(0.8) rotate(2deg);
 }
 .long-g--6 {
@@ -1628,6 +1620,7 @@ body, h1, p {
 
 /* Estilos generales */
 body {
+  
   font-family: 'Arial', sans-serif;
   background-color: #f7f7f7;
   color: #333;
