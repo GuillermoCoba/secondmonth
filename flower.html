@@ -9,7 +9,7 @@
     <title>2do Mes</title>
   </head>
   <body class="container">
-    <audio src="sound/Vacations-Telephones.mp3" autoplay></audio>
+    <audio  id="background-audio"  src="sound/Vacations-Telephones.mp3" autoplay muted="auto"></audio>
     <div id="lyrics">
      
     </div>
@@ -328,5 +328,17 @@
     </div>
     <script src="anim.js"></script>
     <script src="main.js"></script>
+    <script>
+      window.addEventListener('click', function() {
+    var audio = document.getElementById('background-audio');
+    audio.muted = false;
+});
+document.addEventListener('click', function() {
+    var audio = document.getElementById('background-audio');
+    if (audio.paused) {
+        audio.play();
+    }
+})
+    </script>
   </body>
 </html>
